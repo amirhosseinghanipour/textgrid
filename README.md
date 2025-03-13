@@ -1,5 +1,5 @@
-# textgrid
-TextGrid is a Rust crate for working with Praat .TextGrid files, providing parsing, writing, manipulation, and history tracking for TextGrid data. This library is designed for researchers, linguists, and developers working with phonetic annotations or time-aligned data, supporting both text (long/short) and binary formats as per Praat's specification.
+# TextGrid
+`textgrid` is a Rust crate for working with Praat .TextGrid files, providing parsing, writing, manipulation, and history tracking for TextGrid data. This library is designed for researchers, linguists, and developers working with phonetic annotations or time-aligned data, supporting both text (long/short) and binary formats as per Praat's specification.
 
 ## Features
 - Parsing and Writing: Read and write TextGrid files in long/short text formats and Praat's binary format.
