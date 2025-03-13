@@ -47,7 +47,7 @@ use std::path::Path;
 pub fn parse_textgrid<P: AsRef<Path>>(path: P) -> Result<TextGrid, TextGridError> {
     let file = File::open(path)?;
     let reader = BufReader::new(file);
-    let mut lines: Vec<String> = reader.lines().collect::<Result<_, _>>()?;
+    let lines: Vec<String> = reader.lines().collect::<Result<_, _>>()?;
     let mut iter = lines.iter().peekable();
 
     let first_line = iter.next().ok_or(TextGridError::Format("Empty file".into()))?;

@@ -37,7 +37,7 @@
 
 use crate::types::{TextGrid, TextGridError, TierType};
 use std::fs::File;
-use std::io::{self, Write};
+use std::io::{Write};
 use std::path::Path;
 
 /// Writes a `TextGrid` to a Praat `.TextGrid` file.

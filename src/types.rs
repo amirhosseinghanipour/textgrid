@@ -5,7 +5,6 @@
 //! mechanism for undo/redo operations.
 
 use std::collections::VecDeque;
-use std::fmt;
 use thiserror::Error;
 
 // === Error Handling ===
