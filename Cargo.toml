@@ -2,6 +2,9 @@
 name = "textgrid"
 version = "0.1.0"
 edition = "2024"
+description = "A crate for working with PRAAT .TextGrid files with parsing, riting, manipulation, and history tracking modulesfor TextGrid data."
+authors = ["Amirhossein Ghanipour amirhosseinghanipour@gmail.com"]
+license = "CC-BY-NC-4.0"
 
 [dependencies]
 thiserror = "2.0.12"
