@@ -133,10 +133,10 @@ fn main() -> Result<(), textgrid::TextGridError> {
 
 ## API Documentation
 Full API documentation is available on (Docs.rs)[docs.rs]. Key components include:
-- ``TextGrid`: Main structure with tiers and history.
-- ``Tier`: Represents an IntervalTier or PointTier.
-- ``Interval` and `Point`: Data types for annotations.
-- ``TextGridError`: Error handling for I/O and format issues.
+- `TextGrid`: Main structure with tiers and history.
+- `Tier`: Represents an IntervalTier or PointTier.
+- `Interval` and `Point`: Data types for annotations.
+- `TextGridError`: Error handling for I/O and format issues.
 
 ## Building and Testing
 To build and test the crate locally:
